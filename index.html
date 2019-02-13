@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Your personal assistant</title>
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "styles.css" />    
+    </head>
+    <body>
+        <div id="textarea-flex" style="display:hidden">
+            <button id="start-record-btn" title="Start Recording">Shhhhhh!</button>
+            <button id="stop-record-btn" title="Stop Recording" style="display:hidden">Okay, my ears are filled!</button>
+        </div>
+        <div id="alert" style="display:none">
+            <img src="https://media.giphy.com/media/PoCGLo1GS0tIjiTzlF/giphy.gif"/>
+        </div>
+    </div>
+    </body>
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.6.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <!-- <script src="text-to-speech/stopwatch.js"></script> -->
+
+        <script src="script.js"></script>
+        
+        <!-- <script src="index.js"></script> -->
+</html>
